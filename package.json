@@ -1,0 +1,49 @@
+{
+  "name": "designpracto",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://designperfecto.com/",
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cardknox/react-ifields": "^1.0.1",
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^5.0.16",
+    "@mui/material": "^5.11.2",
+    "@netlify/plugin-nextjs": "^4.30.0",
+    "@next/font": "13.1.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "formik-stepper": "^2.1.4",
+    "image-to-base64": "^2.2.0",
+    "image-watermark": "^0.0.7",
+    "jquery": "^3.6.3",
+    "next": "13.1.1",
+    "openai": "^3.2.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-icons": "^1.10.2",
+    "react-dom": "18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.7.1",
+    "react-owl-carousel": "^2.3.3",
+    "react-redux": "^8.0.5",
+    "react-toastify": "^9.1.2",
+    "redux": "^4.2.0",
+    "sass": "^1.62.1",
+    "watermark-image": "^1.0.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.86.0"
+  }
+}
